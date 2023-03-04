@@ -7,16 +7,17 @@ public class Conta {
     private Double saldo;
 
 
-    public  Conta(){
-        this(null,null);
-
-    }
-    public  Conta(Integer numero){
-        this(numero,0.0);
+    public Conta() {
+        this(null, null);
 
     }
 
-    public  Conta(Integer numero, Double saldo){
+    public Conta(Integer numero) {
+        this(numero, 0.0);
+
+    }
+
+    public Conta(Integer numero, Double saldo) {
         this.numero = numero;
         this.saldo = saldo;
 
@@ -28,12 +29,25 @@ public class Conta {
     }
 
     public Double depositar(Double valor) {
-        if(valor == null || valor<=0)
+        if (valor == null || valor <= 0)
             throw new IllegalArgumentException("Valor Inválido");
 
 
         saldo += valor;
         return saldo;
+    }
+
+    public void transferir(Conta destino, Double valor) {
+        if (this.getSaldo() < valor) {
+            throw  new IllegalArgumentException("");
+        }
+
+        if (this.equals(destino)){
+            throw new IllegalArgumentException(" ");
+        }
+        this.sacar(valor);
+        destino.depositar(valor);
+
     }
 
     public Integer getNumero() {

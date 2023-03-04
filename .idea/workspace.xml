@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e288ecc9-92ef-4e3d-b587-7dcfbf1ba7b1" name="Changes" comment="feat: adiciona partes do código">
-      <change afterPath="$PROJECT_DIR$/src/br/newtonpaiva/ui/Main.java" afterDir="false" />
+    <list default="true" id="e288ecc9-92ef-4e3d-b587-7dcfbf1ba7b1" name="Changes" comment="feat: implementa construtores, equals e hashcode do código">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/Conta.java" afterDir="false" />
     </list>
@@ -84,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677281178563</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: implementa construtores, equals e hashcode do código">
+      <created>1677889329304</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677889329304</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,7 +108,8 @@
     <MESSAGE value="feat: cria estrutura inicial" />
     <MESSAGE value="feat: cria a classe conta" />
     <MESSAGE value="feat: adiciona partes do código" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adiciona partes do código" />
+    <MESSAGE value="feat: implementa construtores, equals e hashcode do código" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implementa construtores, equals e hashcode do código" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lab2$Main.ic" NAME="Main Coverage Results" MODIFIED="1677284964956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
