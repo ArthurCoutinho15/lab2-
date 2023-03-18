@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e288ecc9-92ef-4e3d-b587-7dcfbf1ba7b1" name="Changes" comment="feat: implementa construtores, equals e hashcode do código">
-      <change afterPath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/Transferencia.java" afterDir="false" />
+    <list default="true" id="e288ecc9-92ef-4e3d-b587-7dcfbf1ba7b1" name="Changes" comment="feat: implementa interface e conta herança">
+      <change afterPath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/ContaPoupança.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/PessoaFisica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/PessoaJuridica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/ContaEspecial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/ContaEspecial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/newtonpaiva/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/newtonpaiva/ui/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -98,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677891021582</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: implementa interface e conta herança">
+      <created>1678496084518</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678496084518</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,7 +129,8 @@
     <MESSAGE value="feat: cria a classe conta" />
     <MESSAGE value="feat: adiciona partes do código" />
     <MESSAGE value="feat: implementa construtores, equals e hashcode do código" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: implementa construtores, equals e hashcode do código" />
+    <MESSAGE value="feat: implementa interface e conta herança" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implementa interface e conta herança" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lab2$Main.ic" NAME="Main Coverage Results" MODIFIED="1677284964956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

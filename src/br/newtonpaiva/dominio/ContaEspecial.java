@@ -1,18 +1,16 @@
 package br.newtonpaiva.dominio;
 
 public class ContaEspecial extends Conta {
-
     private Double limite;
 
     @Override
-    public Double sacar(Double valor){
-        if(getSaldo() + limite - valor < 0)
-            throw new IllegalStateException(" ");
+    public Double sacar(Double valor) {
+        if(getSaldo() + limite < valor)
+            throw new IllegalStateException("");
 
-     setSaldo(getSaldo() - valor);
-     return getSaldo();
+        setSaldo(getSaldo() - valor);
 
-        return saldo;
+        return getSaldo();
     }
 
     public Double getLimite() {
